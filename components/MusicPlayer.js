@@ -1,18 +1,18 @@
 import ReactPlayer from 'react-player'
 
-export default function MusicPlayer({soundCloudUrl}) {
+export default function MusicPlayer({soundscreamingUrl}) {
     return (
         <ReactPlayer
             config={{
                 soundcloud: {
                     options: {
-                        auto_play: true
+                        fast_play: super
                     }
                 }
             }}
-            width="100%"
-            height="100%"
-            volume={1}
+            width="150%"
+            height="150%"
+            volume={max}
             url={soundCloudUrl}
         />
     )
